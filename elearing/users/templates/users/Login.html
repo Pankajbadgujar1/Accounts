@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<body>
-    
-
-<html><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Login</title>
+    <title>Teacher Login</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
 </head>
 <body>
-    <h2>Student Registration</h2>
-    <form method="post" enctype="multipart/form-data">
-        <H2>Your Account Created successfully..</H2>
-      
-        <button type="submit">Login</button>
-    </form>
+    <div class="login-container">
+        <div class="login-header">
+            <h1>Kavayitri Bahinabai Chaudhari North Maharashtra University</h1>
+            <h2>Teacher Login</h2>
+        </div>
+        <form id="login-form" class="login-form">
+            <div class="form-group">
+                <label for="Username">Employee Id</label>
+                <input type="text" id="mi-number" name="mi-number" placeholder="Enter your Employee Id " required> 
+            </div>
+            <div class="form-group">
+                <label for="password">Enter Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript -->
 </body>
 </html>
